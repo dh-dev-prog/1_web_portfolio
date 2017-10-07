@@ -1,11 +1,38 @@
-i {
+a {
+  text-decoration: none !important
+}
+*[class*="devicon"] {
   display: inline-block;
   font-size: 4rem;
   padding: 20px 7px;
 }
+.card {
+  border: 0;
+}
+footer i[class*="devicon"] {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 10px 7px;
+}
+.fa-linkedin {
+  display: inline-block;
+  font-size: 2.3rem;
+  padding: 10px 10px;
+}
 
+.font-handwriting {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+}
 .banner {
   background: #4B79A1;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tab-movie img,
+.tab-serie img {
+
+}
+.footer-name {
+  font-size: 1rem;
 }

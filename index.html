@@ -9,225 +9,304 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <!-- Main-->
     <link rel="stylesheet" href="src/css/main.css">
   </head>
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark text-white">
-      <a class="navbar-brand lead" href="#">Damien Hervieux</a>
+      <a class="navbar-brand lead font-handwriting" href="#">Damien Hervieux</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="container">
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-            <a class="nav-item nav-link" href="#">Links</a>
+            <a class="nav-item nav-link font-handwriting active" href="#">Home</a>
+            <a class="nav-item nav-link font-handwriting" href="#">About</a>
+            <a class="nav-item nav-link font-handwriting" href="#">Skills</a>
+            <a class="nav-item nav-link font-handwriting" href="#">Contact</a>
+            <a class="nav-item nav-link font-handwriting" href="#">Links</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="banner jumbotron jumbotron-fluid my-0 bg-secondary text-white text-center">
+    <div class="jumbotron jumbotron-fluid my-0 bg-danger text-white text-center">
       <div class="container">
-        <h1 class="display-1">Front End Developer</h1>
-        <p class="lead"> I'm looking for a job for god sake hire me!</p>
+        <h1 class="display-1 handwriting">Front End Developer</h1>
+        <p class="lead"> And I make good coffee... I think... not sure though...</p>
       </div>
     </div>
 
-    <div class="container-fluid py-3 pb-5 text-center bg-light">
+    <div class="container-fluid py-5 px-5 bg-light">
       <h4 class="display-4 py-3">Skills</h4>
-      <div class="container">
-        <i class="devicon-html5-plain colored"></i>
-        <i class="devicon-css3-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-angularjs-plain colored"></i>
-        <i class="devicon-nodejs-plain colored"></i>
-        <i class="devicon-express-original colored"></i>
-        <i class="devicon-mongodb-plain colored"></i>
-        <i class="devicon-heroku-plain colored"></i>
-        <i class="devicon-git-plain colored"></i>
-        <i class="devicon-github-plain colored"></i>
-        <i class="devicon-jasmine-plain colored"></i>
-        <i class="devicon-karma-plain colored"></i>
-        <i class="devicon-bootstrap-plain colored"></i>
-        <i class="devicon-jquery-plain colored"></i>
+      <div class="container text-center">
+        <i class="devicon-html5-plain colored" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
+        <i class="devicon-css3-plain colored" data-toggle="tooltip" data-placement="top" title="CSS3"></i>
+        <i class="devicon-javascript-plain colored" data-toggle="tooltip" data-placement="top" title="Javascript"></i>
+        <i class="devicon-angularjs-plain colored" data-toggle="tooltip" data-placement="top" title="AngularJS"></i>
+        <i class="devicon-nodejs-plain colored" data-toggle="tooltip" data-placement="top" title="NodeJS"></i>
+        <i class="devicon-express-original colored" data-toggle="tooltip" data-placement="top" title="ExpressJS"></i>
+        <i class="devicon-mongodb-plain colored" data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
+        <i class="devicon-heroku-plain colored" data-toggle="tooltip" data-placement="top" title="Heroku"></i>
+        <i class="devicon-git-plain colored" data-toggle="tooltip" data-placement="top" title="Git"></i>
+        <i class="devicon-github-plain colored" data-toggle="tooltip" data-placement="top" title="Github"></i>
+        <i class="devicon-jasmine-plain colored" data-toggle="tooltip" data-placement="top" title="Jasmine"></i>
+        <i class="devicon-karma-plain colored" data-toggle="tooltip" data-placement="top" title="Karma"></i>
+        <i class="devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="top" title="Bootstrap"></i>
+        <i class="devicon-jquery-plain colored" data-toggle="tooltip" data-placement="top" title="JQuery"></i>
       </div>
     </div>
+
+    <div class="container-fluid py-5 px-5 bg-dark text-white">
+      <h4 class="display-4 mb-5">Projects</h4>
+      <div class="card-group">
+        <div class="card my-2 mx-1">
+          <a class="text-dark" href="https://dh-dev-prog.github.io/pos/">
+            <img class="card-img-top img-fluid" src="src/images/pos_screenshot.png">
+            <div class="card-body">
+              <h4 class="card-title"> Cafe POS</h4>
+              <p class="card-text"> A POS system for a cafe</p>
+              <p class="card-text"><small class="text-muted">May 2017</small></p>
+            </div>
+          </a>
+        </div>
+        <div class="card my-2 mx-1">
+          <a class="text-dark" href="https://dh-dev-prog.github.io/HBO/">
+            <img class="card-img-top img-fluid" src="src/images/hbo_screenshot.png">
+            <div class="card-body">
+              <h4 class="card-title">HBO Front page</h4>
+              <p class="card-text"> copy of the hbo front-page</p>
+              <p class="card-text"><small class="text-muted">June 2017</small></p>
+            </div>
+          </a>
+        </div>
+        <div class="card my-2 mx-1">
+          <a class="text-dark" href="https://dh-dev-prog.github.io/imdb_redesign/">
+            <img class="card-img-top img-fluid" src="src/images/imdb_redesign_screenshot.png">
+            <div class="card-body">
+              <h4 class="card-title">IMDB redesign</h4>
+              <p class="card-text">a small website from a mockup redesign of IMDB</p>
+              <p class="card-text"><small class="text-muted">April 2017</small></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5 py-5 px-5 bg-info text-white">
+      <h4 class="display-4">About Me</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Hair trimmer stiff upper lip ron burgundy david seaman che guevara, leader of men che guevara hair trimmer cesar romero albert einstein ron burgundy lorreto del mar give him what-for gent stiff upper lip dick van dyke david seaman?
+      </p>
+    </div>
+
+    <div class="container-fluid py-5 px-5">
+
+      <div class="container-fluid mb-3">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <h4 class="display-4 pl-3">What I like now</h4>
+          </div>
+          <div class="col-7">
+            <ul class="nav nav-pills pl-2" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="pills-music-tab" data-toggle="pill" href="#pills-music" role="tab" aria-controls="pills-music" aria-expanded="true">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-movie-tab" data-toggle="pill" href="#pills-movie" role="tab" aria-controls="pills-movie" aria-expanded="true">Movie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-serie-tab" data-toggle="pill" href="#pills-serie" role="tab" aria-controls="pills-serie" aria-expanded="true">Serie</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-4 bg-info p-5 text-white">
-            <h4 class="display-4">About Me</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Hair trimmer stiff upper lip ron burgundy david seaman che guevara, leader of men che guevara hair trimmer cesar romero albert einstein ron burgundy lorreto del mar give him what-for gent stiff upper lip dick van dyke david seaman?
-              Prince barin devilish cad et sodales cum sam elliott face mop sterling, nefarious hairy lipsum face mop mouthbrow devilish cad cripes prince barin sterling sam elliott et sodales cum what a bounder. Rugged et tip top old bean joseph stalin pit fighter mouth coiffure albert einstein, joseph stalin albert einstein big daft brush rugged et mouth coiffure en time-warped cabbie pit fighter zap rowsdower cigars old man in pub john aldridge soup strainer cunning like a fox tip top old bean. Hungarian off-piste ian botham doctor strange alpha trion, doctor strange ian botham musketeer off-piste old man in pub erudite headmaster dickie davies socially mobile mouth coiffure gunslinger alpha trion joseph stalin hungarian? Dis doctor strange lemmy derek griffiths cream bun disaster david seaman funny walk frontiersman, joseph stalin man markings david seaman cream bun disaster ian rush lemmy worn with distinction jimi hendrix leslie phillips man markings dis doctor strange derek griffiths funny walk frontiersman? Sterling cream bun disaster consectetur.
-            </p>
-          </div>
-          <div class="col-12 col-md-8 bg-dark">
-            <h5 class="display-5 mt-5">Music</h5>
-            <p class="lead">I'm listening to right now</p>
-            <div class="carousel slide mt-4" data-ride="carousel" id="musicCarousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
-                        </div>
-                      </div>
-                    </div>
+        <div class="tab-content" id="pills-tabContent">
+
+          <div class="tab-pane fade" id="pills-music" role="tabpanel" aria-labelledby="pills-music-tab">
+            <div class="container-fluid">
+              <div class="row mb-1">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/baby_driver_soundtrack.jpeg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/baby_driver_soundtrack.jpeg">
-                        </div>
-                      </div>
-                    </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#musicCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#musicCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-            <h5 class="display-5 mt-5">Movies</h5>
-            <p class="lead">I love to watch</p>
-            <div class="carousel slide mt-4" data-ride="carousel" id="movieCarousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/blade_runner_poster.jpg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/mad_max_poster.jpg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/interstellar_poster.jpg">
-                        </div>
-                      </div>
-                    </div>
+              <div class="row">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/theory_of_everything_poster.jpg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/layer_cake_poster.jpg">
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="card">
-                          <img class="card-img-top img-fluid" src="src/images/girl_with_the_dragon_tatoo_poster.jpg">
-                        </div>
-                      </div>
-                    </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/john_wick_2_soundtrack.jpg">
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#movieCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#movieCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
-        </div>
-      </div>
 
+          <div class="tab-pane fade active show tab-movie" id="pills-movie" role="tabpanel" aria-labelledby="pills-movie-tab">
+            <div class="container">
+              <div class="row mb-1">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/blade_runner_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/mad_max_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/interstellar_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/interstellar_poster.jpg">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/theory_of_everything_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/layer_cake_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/girl_with_the_dragon_tatoo_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/girl_with_the_dragon_tatoo_poster.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!--
-      <div class="row justify-content-center align-items-center py-3">
-        <div class="col-2 col-sm-1">
-          <i class="devicon-html5-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-css3-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-javascript-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-angularjs-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-nodejs-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-express-original colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-mongodb-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-heroku-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-git-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-github-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-jasmine-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-karma-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1 py-3">
-          <i class="devicon-bootstrap-plain colored"></i>
-        </div>
-        <div class="col-2 col-sm-1">
-          <i class="devicon-jquery-plain colored"></i>
+          <div class="tab-pane fade tab-serie" id="pills-serie" role="tabpanel" aria-labelledby="pills-serie-tab">
+            <div class="container-fluid">
+              <div class="row mb-1">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/vikings_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/peaky_blinders_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/mr_robot_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/mr_robot_poster.jpg">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/legion_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/game_of_thrones_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/stranger_things_poster.jpg">
+                  </div>
+                </div>
+                <div class="col-3 col-md-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="src/images/stranger_things_poster.jpg">
+                  </div>
+                </div>
+              </div><!--end row-->
+            </div><!--end container-->
+          </div><!--end tab panel-->
         </div>
       </div>
     </div>
-  -->
+
+    <footer class="bg-light">
+      <div class="d-flex align-items-center justify-content-center">
+        <small class="font-handwriting footer-name mr-3">Damien Hervieux</small>
+        <a class="text-dark" href="https://github.com/dh-dev-prog">
+          <i class="devicon-github-plain"></i>
+        </a>
+        <a class="text-dark" href="mailto:damien.herv@gmail.com?subject= mail from portfolio" >
+          <i class="devicon-google-plain"></i>
+        </a>
+        <a class="text-dark" href="https://www.linkedin.com/in/damien-hervieux/">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
   </body>
 </html>
